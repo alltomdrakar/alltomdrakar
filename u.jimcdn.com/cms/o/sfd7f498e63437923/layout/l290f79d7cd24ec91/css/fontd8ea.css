@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+
+body {}
+
+body, p, table, td
+{
+    font:normal 13px/150% Arial, Helvetica, sans-serif;
+    color:#333333;
+}
+
+input, textarea
+{
+    font:normal 13px/150% Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    font:normal normal bold 17px/140% Arial, Helvetica, sans-serif;
+    color:#1490FF;
+    
+}
+
+h2
+{
+    font:normal normal bold 16px/140% "Times New Roman", Times, serif;
+    color:#333333;
+    
+}
+
+h3
+{
+    font:normal normal bold 12px/140% Verdana, Arial, Helvetica, sans-serif;
+    color:#666666;
+    
+}
+
+a:link,
+a:visited
+{
+    text-decoration: underline; /* fix */
+    color:#0099E1;
+}
+
+a:active,
+a:hover
+{
+    text-decoration:none; /* fix */
+    color: #0099E1;
+}
+
+div.hr
+{
+    border-bottom-style:solid;
+    border-bottom-width:1px; /* fix */
+    border-color: #CCCCCC;
+    height: 1px;
+}
